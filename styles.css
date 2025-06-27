@@ -21,6 +21,7 @@ header {
 
 main {
   text-align: center;
+  margin: 0 auto;
 }
 
 footer {
@@ -28,4 +29,32 @@ footer {
   color: #fff;
   padding: 10px;
   text-align: center;
+}
+
+.expense-form {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin-top: 30px;
+  align-items: start;
+}
+
+.expense-form input, select {
+  width: 100%;
+  padding: 5px 10px;
+  margin-top: 5px;
+}
+
+label {
+  margin-top: 15px;
+}
+
+.btn_form {
+  width: 100%;
+  margin-top: 15px;
+  padding: 5px;
+}
+
+.resume {
+  margin-top: 50px;
 }
